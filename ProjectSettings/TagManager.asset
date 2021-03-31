@@ -1,0 +1,78 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Enemy
+  - Stones
+  - GM
+  - DeathColliders
+  - Platforms
+  - Enemy2
+  - Orientation
+  - Enemy3
+  - AM
+  - Timeline
+  - InactivePlayer
+  - Ruby1
+  - Ruby2
+  - GotGun
+  - TubeLight
+  - GotGun2
+  - PlayerV2
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - BG
+  - Platforms
+  - Player
+  - Shadows
+  - Stones
+  - Ladder
+  - Boss
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: BG
+    uniqueID: 3074665863
+    locked: 0
+  - name: Stones
+    uniqueID: 405857899
+    locked: 0
+  - name: Platforms
+    uniqueID: 2462423889
+    locked: 0
+  - name: Player
+    uniqueID: 2201348513
+    locked: 0
+  - name: Shadows
+    uniqueID: 4024882147
+    locked: 0
+  - name: Bullet
+    uniqueID: 2622848043
+    locked: 0

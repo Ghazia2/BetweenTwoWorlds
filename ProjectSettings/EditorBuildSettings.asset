@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/TitleMenu.unity
+    guid: 3f43e0ee2005cf048bc139be13714736
+  - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: 133cf8d4c9213f54c9e6b923ae9a1e3e
+  - enabled: 1
+    path: Assets/Scenes/Credits.unity
+    guid: 7003ff51fb98ed444bd3e1dd4bf362d2
+  - enabled: 1
+    path: Assets/Scenes/Starting.unity
+    guid: 8a29090bd8dbe91498ea3b51493e3276
+  - enabled: 1
+    path: Assets/Scenes/Intro.unity
+    guid: ff1257e391cfca7438b0707e1a85a3ae
+  - enabled: 1
+    path: Assets/Scenes/TimeMachine.unity
+    guid: e0ba18749daba8940aa354fa1af86f26
+  - enabled: 1
+    path: Assets/Scenes/Level1.unity
+    guid: 6741432a2da851c489e5f7ff67782caf
+  - enabled: 1
+    path: Assets/Scenes/Mountain.unity
+    guid: 4782886731a736f45bdf6d73da7c8833
+  - enabled: 1
+    path: Assets/Scenes/Level3.unity
+    guid: 59a25acbc9364e047bfa3dd017729923
+  - enabled: 1
+    path: Assets/Scenes/Lift.unity
+    guid: 2d18004167effd842aabba565325ba12
+  - enabled: 1
+    path: Assets/Scenes/BossFight.unity
+    guid: dc4b6edc8d714504fa7dd9506dc3da43
+  - enabled: 1
+    path: Assets/Scenes/Portal.unity
+    guid: 750bef67cbfc78e42b671d1eeff39685
+  - enabled: 1
+    path: Assets/Scenes/WinPortal.unity
+    guid: 4017faa09894efb4da882c25dda541cf
+  - enabled: 1
+    path: Assets/Scenes/EndMenu.unity
+    guid: d0d10d9d14e21524f9bfb82e55cedd70
+  - enabled: 1
+    path: Assets/Scenes/Showdown.unity
+    guid: b022320ed45a5a943ac1c72ffdbb2141
+  - enabled: 1
+    path: Assets/Scenes/DeadBodies.unity
+    guid: 43d8c758f59aee245b4f2e8355a9b2a6
+  - enabled: 1
+    path: Assets/Scenes/Encounter.unity
+    guid: 137b391862ade0849955fd7388bc946f
+  m_configObjects: {}

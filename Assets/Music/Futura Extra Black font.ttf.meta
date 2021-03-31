@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: 8cae52327aadc6442af40ff2ecd7f6e7
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Futura XBlk BT
+  fontNames:
+  - Futura XBlk BT
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 056a4368f941d464084a9598f0ff1924, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

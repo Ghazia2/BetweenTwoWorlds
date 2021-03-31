@@ -1,0 +1,208 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1780103038531677438
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8990712045221032389}
+  - component: {fileID: 6640251266214469630}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: AM
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8990712045221032389
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1780103038531677438}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6640251266214469630
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1780103038531677438}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a03c68bfa9eac24e974a1233ec35b07, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: MainTheme
+    clip: {fileID: 8300000, guid: d9c8424923b2e92479fda74a5363ea90, type: 3}
+    volume: 0.8
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - name: SecondTheme
+    clip: {fileID: 8300000, guid: 5b0bce881710b0b4fb2c0af3818d5cb7, type: 3}
+    volume: 0.4
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - name: BossEntry
+    clip: {fileID: 8300000, guid: 918f0cf5ce506d944bee03d7a4182f4c, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: BossTranformation
+    clip: {fileID: 8300000, guid: eb0ac3ce9220c194ea0254a8156865de, type: 3}
+    volume: 0.75
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: BossArm
+    clip: {fileID: 8300000, guid: c0f6fc36514d5c74385a9a912a4ef5b4, type: 3}
+    volume: 0.75
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: BossLaser
+    clip: {fileID: 8300000, guid: cecde48d996e1244399f4924b5de8641, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Jump
+    clip: {fileID: 8300000, guid: 957afd2e5e8bb6e4e95b21f8d0d72276, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: KuttaBark
+    clip: {fileID: 8300000, guid: daa87256afd5f1c4e92c6cf5cbd04403, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: JumpVoice
+    clip: {fileID: 8300000, guid: d917fdaf9fd4f164e9475a18506b7301, type: 3}
+    volume: 0.8
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: PlayerDeathVoice
+    clip: {fileID: 8300000, guid: eaa342ae1af8f624ab69af158b3fd6ba, type: 3}
+    volume: 0.8
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: PlayerDeath
+    clip: {fileID: 8300000, guid: 7e87db5330be07448b40495672762a23, type: 3}
+    volume: 0.8
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Dust
+    clip: {fileID: 8300000, guid: 4636443ecc889414080decb5aee5119b, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: FootStep1
+    clip: {fileID: 8300000, guid: 874fad5625c0ecd4fb7ba937409f8d3b, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: FootStep2
+    clip: {fileID: 8300000, guid: 9dad0e492dac1364d96ac71d3cee1dd5, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: CFootStep1
+    clip: {fileID: 8300000, guid: 41d69c8cb4863c348887364de65aa1b8, type: 3}
+    volume: 0.65
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: CFootStep2
+    clip: {fileID: 8300000, guid: a05c8001b88ae26418bb9ff909f891c4, type: 3}
+    volume: 0.65
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: OrbCollection
+    clip: {fileID: 8300000, guid: 59d6cad85cdd54c45a75bfadea4e8dda, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: OrbReturn
+    clip: {fileID: 8300000, guid: 81e341b7d48402e4bb9fffa58037a528, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Dialogue1
+    clip: {fileID: 8300000, guid: 786870740165d6548ba491faa1e04e81, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Dialogue2
+    clip: {fileID: 8300000, guid: 36b2f479dda1a144384fbb52f0e84b11, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: FadeOutDrop
+    clip: {fileID: 8300000, guid: 5df1eedf4d9c10b4ca2dee6c3fa66d12, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: AmbientSound
+    clip: {fileID: 8300000, guid: 583817173377a184499cdb1c7e1d193d, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - name: VictoryClip1
+    clip: {fileID: 8300000, guid: a7e4e3b4f24dede42b02d18c01e5c65a, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: VictoryClip2
+    clip: {fileID: 8300000, guid: b377f65757bb18e45b192d4db14d9d31, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Gun
+    clip: {fileID: 8300000, guid: ddbe9d23009d73446b91d39b0f5e3c00, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: DeathSound
+    clip: {fileID: 8300000, guid: d32c0e5ab3f232f4b82f7fe263ae5ba0, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: PlotTwist
+    clip: {fileID: 8300000, guid: 122af0636f73ce846bd3a99e7c2bcc66, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
